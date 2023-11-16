@@ -6,7 +6,7 @@
 
   # Frontend build settings
   environment = [ 
-    NODE_VERSION = "6.14.15", 
+    "NODE_VERSION = 6.14.15", 
   ]
   command = "cd frontend && npm run build"  # Vite build
   publish = "frontend/dist"  
