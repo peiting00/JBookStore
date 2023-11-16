@@ -1,15 +1,11 @@
-# Backend build setting
+# build setting
 [build]
+  # Backend build settings
   command = "cd backend && npm run build"  # Vite build
   functions = "backend/functions"
 
-# Frontend build settings
-[build.environment]
-  NODE_VERSION = "6.14.15"  # Node.js used for the frontend build
-
-
-# Frontend build setting
-[build]
+  # Frontend build settings
+  environment = { NODE_VERSION = "6.14.15" }
   command = "cd frontend && npm run build"  # Vite build
   publish = "frontend/dist"  
 
