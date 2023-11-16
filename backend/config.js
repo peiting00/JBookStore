@@ -1,0 +1,1 @@
+export const MONGO_URI = "mongodb+srv://root:8888@bookstore-mern.ng52m9v.mongodb.net/book-collection?retryWrites=true&w=majority";

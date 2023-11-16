@@ -1,0 +1,1 @@
+export const BackendEndpoint = '/.netlify/functions/books'
