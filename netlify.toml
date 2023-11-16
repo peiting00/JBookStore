@@ -1,8 +1,13 @@
+# Backend build setting
 [build]
+  command = "cd backend && npm run build"  # Vite build
   functions = "backend/functions"
-  command = "npm run build"  # Vite build
-  publish = "frontend/dist"  # Adjust based on your build output directory
+  
 
+# Frontend build setting
+[build]
+  command = "cd frontend && npm run build"  # Vite build
+  publish = "frontend/dist"  
 
 [[redirects]]
   from = "/*"
