@@ -7,7 +7,11 @@
   command = "npm run build" 
   functions = "functions"
 
+[dev]
+ command =  "npm start"
+ port = 3000
+
 [[redirects]]
   from = "/*"
-  to = "/functions/books.js"
+  to = "/backend/functions/books.js"
   status = 200
