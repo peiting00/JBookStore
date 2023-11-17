@@ -3,6 +3,7 @@ import express from "express";
 import mongoose from "mongoose";
 import cors from "cors";
 import booksRoute from "../routes/booksRoute.js";
+import { MONGO_URI } from "../config.js";
 
 const app = express();
 

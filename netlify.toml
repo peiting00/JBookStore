@@ -1,11 +1,14 @@
-# build setting
+##############################
+# Netlify configuration file #
+##############################
+
 [build]
   # Backend build settings
-  command = "cd backend && npm run build"  # Vite build
+  command = "cd backend && npm i && npm run build"  # Vite build
   functions = "backend/functions"
 
 [[build]]
-  command = "cd frontend && npm run build"  # Vite build
+  command = "cd frontend && npm i && npm run build"  # Vite build
   publish = "frontend/dist"  
 
 [[redirects]]
