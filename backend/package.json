@@ -5,8 +5,8 @@
   "type": "module",
   "main": "functions/books.js",
   "scripts": {
-    "start": "netlify dev",
-    "dev": "netlify build",
+    "start": "nodemon functions/books.js",
+    "dev": "nodemon functions/books.js",
     "test":"echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
